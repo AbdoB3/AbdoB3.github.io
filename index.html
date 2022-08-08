@@ -47,7 +47,19 @@
             <img src="img/me(redimensioner).jpg" class="rounded-circle" alt="bihiabderrahmane" title="abderrahmane bihi">
         </div>
         <div class="heading">
-            <h1>Hello,c'est Abderrahmane</h1>
+            <div id="text"> </div>
+            <script>
+                var i = 0;
+                var text = "HELLO,C'EST ABDERRAHMANE";
+                function typing(){
+                    if(i<text.length){
+                        document.getElementById("text").innerHTML+=text.charAt(i);
+                        i++;
+                        setTimeout(typing,50)
+                    }
+                }
+                typing();
+            </script>
             <h3>Web developer</h3>
             <a href="docs/myResume3.pdf" target="_blank" class="button">Telecharger mon CV</a>
         </div>
