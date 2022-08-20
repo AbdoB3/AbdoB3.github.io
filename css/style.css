@@ -14,6 +14,24 @@ body{
 ul{
     list-style: none;
 }
+
+.button1{
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 13px 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: transparent;
+}
+.button1:hover{
+    color:#d82c2e;
+    background-color: white;
+}
 /*Navbar*/
 .navbar{
     background-color: #d82c2e;
@@ -69,28 +87,12 @@ img{
 .profile-picture{
     margin: 0 auto 30px;
 }
-.heading .button{
-    font-weight: bold;
-    border: 1px solid white;
-    padding: 18px 50px;
-    margin-bottom: 20px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease-in 0s;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-.heading .button:hover{
-    color:#d82c2e;
-    background-color: white;
-}
 
 #About{
     margin-bottom: 40px;
 }
 
-/*skills*/
+/*Skills*/
 #skills .header h2{
     text-align: center;
     color: #d82c2e;
@@ -220,7 +222,7 @@ img{
     color: #d82c2e;
 }
 
-/* educationè*/
+/*Education*/
 
 #education h2{
     color: #d82c2e;
@@ -253,8 +255,6 @@ img{
     border-radius: 3px;
     text-transform: uppercase;
 
-    
-
 }
 .education-block .button:hover{
     color:white;
@@ -274,25 +274,6 @@ img{
     font-weight: normal;
 }
 
-/* portfolio*/
-
-#portfolio{
-    background-color: #d82c2e;
-    padding: 50px 0;
-}
-#portfolio h2{
-    color: #fff;
-    text-align: center;
-    margin-bottom: 30px;
-}
-#portfolio img{
-    width: 100%;
-    height: 100%;
-
-}
-.education-block span{
-    font-size: 35px;
-}
 
 /* Footer*/
 footer{
@@ -306,4 +287,46 @@ footer h5{
 footer span{
     color: #d82c2e;
     font-size: 25px;
+}
+
+/*Contact*/
+#contact{
+    background-color: #d82c2e;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#contact .devider{
+     margin-top: 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contact-form{
+    font-size: 20px;
+}
+
+#contact-form input[type="submit"]{
+    margin: 40px auto ;
+    display: block;
+}
+.comments{
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    height: 25px;
+}
+.thanks{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 40px;
+
 }
